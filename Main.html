@@ -19,30 +19,72 @@
   {
    overflow: auto;
    float: left;
-   padding: 15px;
+   width: 300px;
    border: 1px solid red;
-   width: 30%;
-   height: 500px;
-   background: #6666dd;
+   height: 850px;
+   background: #bbbbff;
   }
+  
+  .mcol
+  {
+   overflow: auto;
+   float: left;
+   min-width: 300px;
+   border: 1px solid red;
+   width:         calc(100% - 600px);
+   height: 850px;
+   background: #bbbbff;
+  }
+  
+  .tbox
+  {
+   border: 1px solid red;
+   height: 50px;
+   background: #ffbbbb;
+  }
+  
+  <!--Make scoll list class-->
+  <!--Make chat window class-->
+  
  </style>
 </head>
 <body>
+ <div class="tbox">
+   <button type="button">Settings</button>
+   <button type="button">Boards</button>
+   <button type="button">New Chat</button>
+  
+ </div>
  
  <div class="row">
   <div class="col">
-   <button type="button">Settings</button>
    <p>Username</p>
-   <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+   <img src="https://bsn.eu/wp-content/uploads/2016/12/user-icon-image-placeholder-300-grey.jpg">
+   <div class="tbox">
+    <p>Favorite Boards</p>
+   </div>
+   <!--scoll list class-->
+   <div class="tbox">
+    <p>History</p>
+   </div>
+   <!--scoll list class-->
   </div>
  
-  <div class="col" width=40%>
-   <button type="button">Boards</button>
+  
+  <div class="mcol">
+   <p>Newsfeed</p>
   </div>
+  
  
   <div class="col">
-   <button type="button">New Chat</button>
-   <p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p><p>teste</p>
+   <div class="tbox">
+    <p>Friends</p>
+   </div>
+   <!--scoll list class-->
+   <div class="tbox">
+    <p>Chat</p>
+    <textarea name="myTextBox" cols="39" rows="1"> </textarea>
+   </div>
   </div>
  </div>
 
