@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html>
+<font style="font-family:verdana" color="white">
 <head>
  <title>The Huddle Main</title>
- 
+
  <style>
  *{
   box-sizing: border-box;
   }
- 
+
   .row::after
   {
    content: "";
    clear: both;
    display: table;
   }
- 
+
   .col
   {
    overflow: auto;
    float: left;
    width: 300px;
-   border: 1px solid white;
+   border: 1px solid black;
    height: 850px;
-   background: #bbbbcc;
+   background: #222222;
   }
-  
+
   .mcol
   {
    overflow: auto;
    float: left;
    min-width: 300px;
-   border: 1px solid white;
+   border: 1px solid black;
    width:         calc(100% - 600px);
    height: 850px;
-   background: #bbbbcc;
+   background: #222222;
   }
-  
+
   .tbox
   {
-   border: 1px solid white;
+   border: 1px solid black;
    height: 50px;
-   background: #ccbbbb;
+   background: #666666;
   }
-  
+
   <!--Make scoll list class-->
   <!--Make chat window class-->
-  
+
  </style>
 </head>
 <body>
@@ -53,9 +54,9 @@
    <button type="button">Settings</button>
    <button type="button">Boards</button>
    <button type="button">New Chat</button>
-  
+
  </div>
- 
+
  <div class="row">
   <div class="col">
    <p>Username</p>
@@ -69,13 +70,13 @@
    </div>
    <!--scoll list class-->
   </div>
- 
-  
+
+
   <div class="mcol">
    <p>Newsfeed</p>
   </div>
-  
- 
+
+
   <div class="col">
    <div class="tbox">
     <p>Friends</p>
@@ -89,4 +90,5 @@
  </div>
 
 </body>
+</font>
 </html>
